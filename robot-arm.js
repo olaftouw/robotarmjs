@@ -98,7 +98,7 @@ var robotArm = (function(){
 				map[c][r] = robotArm.blockColors[Math.floor(Math.random() * robotArm.blockColors.length)];
 			}
 		}
-		pd.blockMap = map;
+		pd.blockMap = map.slice();
 		var map2 = [];
 		for (var i = 0; i < map.length; i++) map2.push(map[i].slice());
 		pd.state.blockMap = map2;
