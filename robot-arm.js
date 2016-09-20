@@ -351,10 +351,125 @@ var RobotArm = function (canvas) {
     self.loadLevel = function(levelName) {
         switch (levelName) {
             case "exercise 1":
-                self.setMap([["white"], ["blue"], ["red"]]);
+                self.setMap([[], ["red"]]);
                 break;
             case "exercise 2":
-                self.setMap([["white", "red", "green"], ["blue", "green"], ["red", "red"]]);
+                self.setMap([["blue"], [] ,[], [], ["blue"], [], [], ["blue"]]);
+                break;
+            case "exercise 3":
+                self.setMap([["white", "white", "white", "white"]]);
+                break;
+            case "exercise 4":
+                self.setMap([["blue", "white", "green"]]);
+                break;
+            case "exercise 5":
+                self.setMap([[], ["red", "red", "red", "red", "red", "red", "red"]]);
+                break;
+            case "exercise 6":
+                self.setMap([["red"], ["blue"], ["white"], ["green"], ["green"], ["blue"], ["red"], ["white"]]);
+                break;
+            case "exercise 7":
+                self.setMap([
+                    [],
+                    ["blue", "blue", "blue", "blue", "blue", "blue"],
+                    [],
+                    ["blue", "blue", "blue", "blue", "blue", "blue"],
+                    [],
+                    ["blue", "blue", "blue", "blue", "blue", "blue"],
+                    [],
+                    ["blue", "blue", "blue", "blue", "blue", "blue"],
+                    [],
+                    ["blue", "blue", "blue", "blue", "blue", "blue"]
+                ]);
+                break;
+            case "exercise 8":
+                self.loadLevel("exercise 5");
+                break;
+            case "exercise 9":
+                self.setMap([
+                    ["blue"],
+                    ["green", "green"],
+                    ["white", "white", "white"],
+                    ["red", "red", "red", "red"]
+                ]);
+                break;
+            case "exercise 10":
+                self.setMap([
+                    ["green"],
+                    ["blue"],
+                    ["white"],
+                    ["red"],
+                    ["blue"]
+                ]);
+                break;
+            case "exercise 11":
+                self.setMap([
+                    [],
+                    ["white"],
+                    ["red"],
+                    ["red"],
+                    ["blue"],
+                    ["red"],
+                    ["green"],
+                    ["blue"],
+                    ["green"],
+                    ["green"]
+                ]);
+                break;
+            case "exercise 12":
+                self.setMap([
+                    ["green"],
+                    ["red"],
+                    ["green"],
+                    ["white"],
+                    ["green"],
+                    ["blue"],
+                    ["green"],
+                    ["blue"],
+                    ["green"],
+                ]);
+                break;
+            case "exercise 13":
+                self.setMap([
+                    ["green"],
+                    ["green"],
+                    ["green"],
+                    ["blue"],
+                    ["white"],
+                    ["green"],
+                    ["red"],
+                    ["red"],
+                    ["blue"],
+                    ["green"]
+                ]);
+                break;
+            case "exercise 14":
+                self.setMap([
+                    [],
+                    ["green"],
+                    ["white"],
+                    ["green", "white"],
+                    ["red", "white"],
+                    ["white", "white"],
+                    ["blue"],
+                    ["blue", "blue", "blue"],
+                    ["blue", "green", "green"],
+                    ["red"]
+                ]);
+                break;
+            case "exercise 15":
+                self.setMap([
+                    [],
+                    ["blue"],
+                    [],
+                    ["blue"],
+                    ["white"],
+                    [],
+                    ["red"],
+                    ["green"],
+                    ["red"],
+                    ["green"]
+                ]);
                 break;
             default:
                 throw new Error("There is no level with the name: " + levelName);
