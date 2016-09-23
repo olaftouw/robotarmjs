@@ -51,27 +51,34 @@ Moves the robot arm to the right (to the next pile of boxes)
 ``` Javascript
 robotArm.moveRight();
 ```
-### robotArm.moveLeft()
+###robotArm.moveLeft()
 Moves the robot arm to the left (to the previous pile of boxes)
 ####code example
 ``` Javascript
 robotArm.moveLeft();
 ```
-### robotArm.grab()
+###robotArm.grab()
 Grabs the highest box from the current pile of boxes. The arm will hold the box until it is dropped somewhere
 ####code example
 ``` Javascript
 robotArm.grab();
 ```
-### robotArm.drop()
+###robotArm.drop()
 Drops the box the arm is holding on top of the current pile of boxes
 ####code example
 ``` Javascript
 robotArm.drop();
 ```
-### robotArm.scan()
+###robotArm.scan()
 Scans the color of the box the arm is holding. The robotArm.scan() returns this color. If the arm is not holding any box then *null* is returned
 ####code example
 ``` Javascript
 color = robotArm.scan();
+```
+##properties you can set
+###robotArm.speed 
+Determines the speed of the animated robot arm. Default value is 50
+####code example
+``` Javascript
+robotArm.speed = 100;
 ```
