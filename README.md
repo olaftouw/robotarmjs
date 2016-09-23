@@ -16,6 +16,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
 </body>
 </html>
 ```
+* Put the robotarm.js in the map where your HTML-page resides
 * Create a Javascript file *myscript.js* in which you start controlling the robotarm by calling its methods
 * Test the result of your code by loading your HTML-page in a modern browser
 * Use the console-tab in the developer tools (F12) of your browser to check if the code is validated correctly
