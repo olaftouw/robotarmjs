@@ -4,7 +4,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
 
 ##Getting started with this library
 * Create a HTML-page like:
-
+``` html
 <!doctype html>
 <html>
 <head>
@@ -15,6 +15,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
 <body>
 </body>
 </html>
+```
 * Create a Javascript file *myscript.js* in which you start controlling the robotarm by calling its method
 
 ##Methods you can use
