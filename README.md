@@ -15,7 +15,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
             var robotArm = new RobotArm(canvas);
             
             // Either use loadLevel or randomLevel to create a start scene
-            robotArm.loadLevel("exercise 3");
+            robotArm.loadLevel("exercise 1");
             
             // My instructions come here
             
