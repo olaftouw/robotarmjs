@@ -4,6 +4,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
 
 ##Getting started with this library
 * Create a HTML-page like:
+
 <!doctype html>
 <html>
 <head>
