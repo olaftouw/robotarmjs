@@ -16,6 +16,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
             
             // Either use loadLevel or randomLevel to create a start scene
             robotArm.loadLevel("exercise 3");
+            
             // My instructions come here
             
             
