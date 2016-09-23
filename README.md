@@ -19,12 +19,11 @@ This library is an easy and enjoyable way to start learning the basics of progra
 * Create a Javascript file *myscript.js* in which you start controlling the robotarm by calling its method
 
 ##Methods you can use
-### robotarm.loadLevel(levelName)
-Displays the robot arm above a predefined set of piles of boxes
+### robotarm.loadLevel(name)
+Displays the robot arm above a predefined set of piles of boxes according to the given name
 ####code example
 ``` Javascript
-LevelName = 'exercise 1';
-robotarm.loadLevel(levelName);
+robotarm.loadLevel('exercise 1');
 ```
 ### robotarm.loadRandomLevel()
 Displays the robot arm above a random set of piles of boxes
