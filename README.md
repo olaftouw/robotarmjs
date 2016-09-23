@@ -75,7 +75,7 @@ Scans the color of the box the arm is holding. The robotArm.scan() returns this 
 ``` Javascript
 color = robotArm.scan();
 ```
-##properties you can set
+##Properties you can set
 ###robotArm.speed 
 Determines the speed of the animated robot arm. Default value is 50
 ####code example
