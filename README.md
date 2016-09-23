@@ -16,7 +16,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
 </body>
 </html>
 ```
-* Create a Javascript file *myscript.js* in which you start controlling the robotarm by calling its method
+* Create a Javascript file *myscript.js* in which you start controlling the robotarm by calling its methods
 
 ##Methods you can use
 ### robotarm.loadLevel(name)
