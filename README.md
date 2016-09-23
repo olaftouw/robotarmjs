@@ -1,6 +1,7 @@
 # RobotArmJS
 
 This library is an easy and enjoyable way to start learning the basics of programming using javascript. You can program a robot arm to move boxes in piles from one pile to another. For example: you can instruct the robot arm to scan the color of boxes and then sort these boxes to different piles according to their colors
+![robot arm](https://github.com/davinci-ao-studio/robotarmjs/robotarm.png "Robot arm")
 
 ##Getting started with this library
 * Create a HTML-page like this:
