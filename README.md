@@ -23,14 +23,16 @@ This library is an easy and enjoyable way to start learning the basics of progra
 Displays the robot arm above a predefined set of piles of boxes
 
 ####code example
+``` Javascript
 LevelName = 'exercise 1';
-
-robotarm.loadLevel(levelName) ;
+robotarm.loadLevel(levelName);
+```
 
 ### robotarm.loadRandomLevel()
 Displays the robot arm above a random set of piles of boxes
 
 ###Code example
+``` Javascript
 robotarm.loadRandomLevel();
-
+```
 
