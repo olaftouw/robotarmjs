@@ -31,8 +31,26 @@ robotarm.loadLevel(levelName);
 ### robotarm.loadRandomLevel()
 Displays the robot arm above a random set of piles of boxes
 
-###Code example
+####code example
 ``` Javascript
 robotarm.loadRandomLevel();
 ```
+### robotarm.moveRight()
+Moves the robot arm to the right (to the next pile of boxes)
+
+####code example
+``` Javascript
+robotarm.moveRight();
+```
+### robotarm.moveLeft()
+Moves the robot arm to the left (to the previous pile of boxes)
+
+####code example
+``` Javascript
+robotarm.moveLeft();
+```
+
+
+
+
 
