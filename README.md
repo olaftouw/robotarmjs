@@ -10,7 +10,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
         <canvas id="canvas" width="800" height="600"></canvas>
         <script src="robot-arm.js"></script>
         <script>
-            // Initialize the robotArm
+            // Initialize the robot arm
             var canvas = document.getElementById("canvas");
             var robotArm = new RobotArm(canvas);
             
@@ -28,7 +28,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
 </html>
 ```
 * Put the robot-arm.js in the map where your HTML-page resides
-* Test the result of your code by loading your HTML-page in a modern browser
+* Test your code running by loading your HTML-page in a modern browser
 * Use the console window in the developer tools (F12) of your browser to check if the code runs without errors
 
 ##Methods you can use
