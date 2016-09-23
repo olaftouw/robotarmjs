@@ -20,7 +20,7 @@ This library is an easy and enjoyable way to start learning the basics of progra
 
 ##Methods you can use
 ### robotarm.loadLevel(name)
-Displays the robot arm above a predefined set of piles of boxes according to the given name
+Displays the robot arm above a predefined set of piles of boxes according to the given *name*
 ####code example
 ``` Javascript
 robotarm.loadLevel('exercise 1');
