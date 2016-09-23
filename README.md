@@ -56,7 +56,7 @@ Drops the box the arm is holding on top of the current pile of boxes
 robotarm.drop();
 ```
 ### robotarm.scan()
-Scans the color of the box the arm is holding. The robotarm.scan() returns this color. If the arm is not holding a box *null* is returned
+Scans the color of the box the arm is holding. The robotarm.scan() returns this color. If the arm is not holding any box *null* is returned
 ####code example
 ``` Javascript
 color = robotarm.scan();
