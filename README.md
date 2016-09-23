@@ -1,3 +1,12 @@
-# RobotArmJS
+### RobotArmJS
 
-This library is an easy and enjoyable way to start learning the basics of programming using javascript.
+This library is an easy and enjoyable way to start learning the basics of programming using javascript. You can program a robot arm to move boxes in piles from one pile to another. Let the robot arm for example scan the color of boxes and try to sort these boxes in different piles etc.
+
+##Features
+# robotarm.loadLevel(levelName) 
+For example: 
+
+LevelName = 'exercise 1';
+robotarm.loadLevel(levelName) 
+
+
