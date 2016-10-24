@@ -483,7 +483,7 @@ var RobotArm = function (canvas) {
 		var map = [];
 		for (var c = 0; c < columns; c++) {
 			map[c] = [];
-			var rh = Math.floor(Math.random() * rows - 1);
+			var rh = Math.floor(Math.random() * rows + 1);
 			for (var r = 0; r < rh; r++) {
 				map[c][r] = local.blocks.availableColors[Math.floor(Math.random() * local.blocks.availableColors.length)];
 			}
